@@ -1,0 +1,28 @@
+:root {
+    --white: #fff;
+    --dark-500: #09090A;
+    
+    --gray-200: #EDEDED;
+    --gray-500: #27272A;
+    
+    --green-500: #00875f;
+
+    --red-500: #F75A68;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #09090A;
+}
+
+body, input, button {
+    /* 1rem = 16 px */
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    -weibkit-font-smoothing: antialiased;
+}
